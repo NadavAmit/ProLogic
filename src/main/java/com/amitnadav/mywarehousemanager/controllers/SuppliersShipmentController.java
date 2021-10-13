@@ -32,6 +32,7 @@ public class SuppliersShipmentController {
     public void deleteSuppliersShipment(@PathVariable int id){
         suppliersShipmentService.deleteSupplierShipment(id);
     }
+
     @PutMapping("/{id}")
     public void updateSuppliersShipment (@RequestBody SuppliersShipment suppliersShipment
             ,@PathVariable int id){

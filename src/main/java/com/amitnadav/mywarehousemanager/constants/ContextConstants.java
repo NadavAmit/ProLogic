@@ -31,4 +31,9 @@ public class ContextConstants {
 
 
     public static final String INCOMING_PRODUCT ="Incoming Product";
+
+
+    public static final String STATION_LIST ="Station List" ;
+    public static final String STATION_ID = "Station Id";
+    public static final String STATION = "Station" ;
 }
